@@ -12,7 +12,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "tu clave aca"
 llm = ChatOpenAI(model="gpt-4o-mini")
 
 # Load, chunk and index the contents of the blog.

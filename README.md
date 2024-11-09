@@ -27,6 +27,8 @@ Este proyecto implementa el tutorial [LangChain RAG](https://python.langchain.co
 ### 5. **Generación de Respuestas**
    - **Componente**: `ChatOpenAI` (GPT-4)
    - **Función**: El modelo de lenguaje (GPT-4) toma los fragmentos relevantes recuperados y genera una respuesta a la consulta utilizando esos fragmentos como contexto. Se utiliza un prompt que guía al modelo para que elabore una respuesta concisa y útil basándose en el   contexto recuperado por ejemplo que responda "don't know" si no sabe la respuesta.
+   - ![image](ReadmeImages/prompt.png)
+
 
 ### 6. **Formateo**
    - **Componente**: `StrOutputParser`
